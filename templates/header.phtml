@@ -1,11 +1,23 @@
 <? $account = $this->auth()->getManager(); ?>
 <div class="navbar-header">
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-collapse">
+  <?/*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-collapse">
     <span class="sr-only">Toggle navigation</span>
     <i class="fa fa-bars"></i>
-  </button>
-  <a role="logo" class="navbar-brand" href="<?=$this->url('home')?>">VuFind</a>
+  </button>*/ ?>
+  <a class="header-title" href="<?=$this->url('home')?>">
+    <div>
+        <div id="logo">
+            <?=$this->partial('nhc-svg.svg')?>
+        </div>
+        <div class="title">HazLib</div>
+        <!-- <div class="sub-title">
+            The NHC Library Catelogue
+        </div> -->
+    </div>
+  </a>
+  <?/*<a id="logo" class="navbar-brand" href="<?=$this->url('home')?>"></a>*/?>
 </div>
+
 <? if ($this->layout()->searchbox !== false): ?>
   <section class="visible-lg">
     <?=$this->layout()->searchbox ?>
@@ -54,6 +66,7 @@
         </li>
       <? endif; ?>
 
+      <? /*
       <? if (isset($this->layout()->allLangs) && count($this->layout()->allLangs) > 1): ?>
         <li class="dropdown">
           <form method="post" name="langForm" id="langForm">
@@ -67,6 +80,7 @@
           </ul>
         </li>
       <? endif; ?>
+      */ ?>
     </ul>
   </div>
 <? endif; ?>

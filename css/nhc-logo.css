@@ -1,0 +1,26 @@
+.tornado-back, .home-button:hover .tornado-back{
+    fill: #f8981d;
+    fill-opacity: 1
+}
+.quake-back, .home-button:hover .quake-back{
+    fill: #6ac070;
+    fill-opacity: 1
+}
+.sea-back, .home-button:hover .sea-back{
+    fill: #00b8ef;
+    fill-opacity: 1
+}
+.bolt-back, .home-button:hover .bolt-back{
+    fill:#ffd900;
+    fill-opacity:1
+}
+.logo-front, .home-button:hover .logo-front{
+    fill:#ffffff;
+    fill-opacity:1
+}
+.home-button .logo-back{
+    fill: #585857;
+}
+.home-button .logo-front{
+    fill: #929291;
+}
