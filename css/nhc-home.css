@@ -116,6 +116,10 @@ header .container, header .searchbox, header .breadcrumb{
     border: none;
 }
 
+header .navbar-header p {
+    font-size: 20px;
+}
+
 .breadcrumb a, .breadcrumb a:hover {
     color: white;
     margin: 5px;
