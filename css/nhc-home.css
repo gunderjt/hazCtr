@@ -251,3 +251,17 @@ footer ul li{
 footer a, footer a:visited, footer a:active {
 
 }
+
+.find-us {
+    color: black;
+    text-decoration: none;
+}
+
+.find-us:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.about-us p {
+    text-indent: 10px;
+}
